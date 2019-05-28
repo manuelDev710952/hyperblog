@@ -36,3 +36,8 @@
    * git diff identificador indetificador2                   => para ver diferencias entre versiones especificas.
    * git reset versionVolver --hard                          => permite volver a una version anterior (incluyendo el staying).
    * git reset versionVolver --soft                          => permite volver a una version anterior (solo en el directorio de trabajo).
+   * git log --stat                                          => para ver los cambios especificos en cuales archivos.
+   * git checkout nombreArchivo                              => regresa archivo a la version que queremos.
+   * git checkout master nombreArchivo                       => regresa archivo a la ultima version.
+   * git checkout branch nombreRama                          => para crear una rama	.
+   * git checkout nombreRama                                 => para moverme hacia una rama.
