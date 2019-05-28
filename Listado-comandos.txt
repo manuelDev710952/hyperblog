@@ -1,0 +1,38 @@
+
+============== COMANDOS BASICOS ==============
+
+   * pwd              => saber en que carpeta estas.
+   * cd               => navegar entre carpetas.
+   * cd               => retroceder a carpeta anterior.
+   * cd /             => indica el home.
+   * ls               => para ver archivos dentro de donde estas.
+   * ls -al           => esto indica que le paso argumentos al comdo principal (traer listado de todos los archivos aunque sean ocultos)
+                         -a = archivos ocultos y -l listado.
+   * ctrl + l o clear => limpia la terminal.
+   * mkdir            => sirve para crear carpetas.
+   * touch            => sirve para crear archivo vacio.
+   * cat              => sirve para ver contenido de un archivo.
+   * history          => muestra todo el historial de los comandos que se han ejecutado.
+   * !numeroComando   => ejecuta nuevamente el comando.
+   * rm nombreAarchivo=> para borrar archivo.
+   * --               => siginifica que vas a usar una palabra.
+   
+   
+================ COMANDOS PARA GIT ===================
+   
+   * git init                                                => sirve para inicializar git.
+   * git status                                              => sirve para visualizar el status del proyecto.
+   * git add  nbArchivo                                      => añade a tracking el archivo.
+   * git add .                                               => añadir todos los archivos de la carpeta.
+   * git rm  nbArchivo                                       => remueve el archivo de tracking.
+   * git rm  --cached nbArchivo                              => remueve el archivo de tracking totalmente.
+   * git config                                              => sirve para encontrar todas las configuraciones que tiene git.
+   * git --list                  							 => sirve para ver configuracion por defecto de git.
+   * git --list --show-origin   							 => sirve para ver donde estan las configuraciones guardadas.
+   * git --global                                            => para acceder al usuario global.
+   * git config --global user.name "Manuel Esquivel Aleman"  => para cambiar nombre de usuario.
+   * git log nombreArchivo                                   => sirve para ver el historial de movimientos de ese archivo.
+   * git show nombreArchivo                                  => para ver que cambios se hicieron sobre ese archivo.
+   * git diff identificador indetificador2                   => para ver diferencias entre versiones especificas.
+   * git reset versionVolver --hard                          => permite volver a una version anterior (incluyendo el staying).
+   * git reset versionVolver --soft                          => permite volver a una version anterior (solo en el directorio de trabajo).
