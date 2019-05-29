@@ -1,21 +1,23 @@
 
 ============== COMANDOS BASICOS ==============
 
-   * pwd              => saber en que carpeta estas.
-   * cd               => navegar entre carpetas.
-   * cd               => retroceder a carpeta anterior.
-   * cd /             => indica el home.
-   * ls               => para ver archivos dentro de donde estas.
-   * ls -al           => esto indica que le paso argumentos al comdo principal (traer listado de todos los archivos aunque sean ocultos)
-                         -a = archivos ocultos y -l listado.
-   * ctrl + l o clear => limpia la terminal.
-   * mkdir            => sirve para crear carpetas.
-   * touch            => sirve para crear archivo vacio.
-   * cat              => sirve para ver contenido de un archivo.
-   * history          => muestra todo el historial de los comandos que se han ejecutado.
-   * !numeroComando   => ejecuta nuevamente el comando.
-   * rm nombreAarchivo=> para borrar archivo.
-   * --               => siginifica que vas a usar una palabra.
+   * pwd                    => saber en que carpeta estas.
+   * cd                     => navegar entre carpetas.
+   * cd                     => retroceder a carpeta anterior.
+   * cd /                   => indica el home.
+   * ls                     => para ver archivos dentro de donde estas.
+   * ls -al                 => esto indica que le paso argumentos al comdo principal (traer listado de todos los archivos aunque sean ocultos)
+                               -a = archivos ocultos y -l listado.
+   * ctrl + l o clear       => limpia la terminal.
+   * mkdir                  => sirve para crear carpetas.
+   * touch                  => sirve para crear archivo vacio.
+   * cat                    => sirve para ver contenido de un archivo.
+   * history                => muestra todo el historial de los comandos que se han ejecutado.
+   * !numeroComando         => ejecuta nuevamente el comando.
+   * rm nombreAarchivo      => para borrar archivo.
+   * --                     => siginifica que vas a usar una palabra.
+   * -v                     => significa sea verbal.
+   * alias nombre = comando => sirve para crear un alias para un comando largo.
    
    
 ================ COMANDOS PARA GIT ===================
@@ -41,3 +43,13 @@
    * git checkout master nombreArchivo                       => regresa archivo a la ultima version.
    * git checkout branch nombreRama                          => para crear una rama	.
    * git checkout nombreRama                                 => para moverme hacia una rama.
+   * git commit -am                                          => para hacer commit de todo omitiendo el comando add.
+   * git merge nombreRama                                    => para unir contenido de 2 ramas;
+   * git remote add origin ligaGitHub                        => para acceder a un repositorio remoto.
+   ======== primero ejecutar el pull para traer todo y despues el push ========================
+   * git pull origin master                                  => traer todo del repositorio remoto.
+   * git push origin master                                  => mandar todo al repositorio remoto.
+   * git pull origin master --allow-unrelated-histories      => sirve para forzar a que una las historias (log).
+   a
+   
+   
